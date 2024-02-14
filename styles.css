@@ -1,0 +1,108 @@
+main{
+    padding: 0px 60px;
+}
+
+/*top of the website*/
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+}
+
+.right{
+    text-align: right;
+    padding-right: 50px;
+}
+
+
+
+.bottom{
+    padding: 10px 20px 20px 20px;
+}
+
+/*THE FIRST LINE OF THE CONTENT*/
+.up{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+/*Alex picture*/
+.one{
+    text-align: center;
+}
+.one img{
+    width: 250px;
+    height: 250px;
+    border-radius: 24px;
+}
+
+/*Overview*/
+.two{
+    width: 450px;
+    padding: 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.two #overview{
+    text-align: center;
+    color: #4c0880;
+    
+} 
+.two p{
+    text-align: justify;
+    
+}
+
+
+/*Cameron pic*/
+.three{
+    text-align: center;
+}
+
+.three img{
+    width:250px;
+    height:250px;
+    border-radius: 24px;
+}
+
+/*THE SECOND LINE OF THE CONTENT*/
+
+.down{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.down .ann{
+    text-align: center;
+}
+.ann img{
+    width:250px;
+    height:250px;
+    border-radius: 24px;
+}
+
+.link{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    padding-left: 20px;
+    width: 450px;
+}
+
+.link h1{
+    text-align: center;
+    color: #4c0880;
+}
+
+.information{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    padding-left: 20px;
+    width:450px;
+}
+
+.information h1{
+    text-align: center;
+    color: #4c0880;
+}
